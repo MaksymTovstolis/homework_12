@@ -17,6 +17,10 @@ function showMaxValue(a,b) {
            sumB += b[i];
         } 
     }
-
-    if (sumA < sumB) => return b;
+    
+    if (sumA < sumB) {
+        return b;
+    } else {
+        return a;
+    }
 }
